@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*key*.txt
+*secret*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test / cache artifacts
+.pytest_cache/
+.coverage
+htmlcov/
